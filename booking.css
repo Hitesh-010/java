@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.up{
+    width: 100%;
+    height: 150px;
+    top: 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0 0 0 450px;
+    justify-content: space-between;
+    color:aliceblue;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.up .lgname{
+    top: 15px;
+    align-items: center;
+    position: relative;
+    color: #000;
+    font-weight: 600;
+    transition: 0.3s;
+    font-size: 60px;
+}
+
+
+.up .lgname:hover{
+    -webkit-text-stroke: 2px #ffa3a3;
+    color: #ffa3a3;
+}
+
+
+
+.main2{
+    width: 250px;
+    height: 50px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 0%;
+}
+
+.main2 a{
+    color: #000;
+    display: inline-block; 
+    font-size: 18px; 
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.main2 .log{
+    padding: 10px 20px;
+}
+
+.log:hover{
+    transform: scale(1.2);
+}
+
+
+.mid{
+    top: 594px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 600px;
+    top: 0;
+}
+
+.mid .box{
+    font-size: 25px;
+    height: 450px;
+    width: 500px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mid .text1{
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    top: 100px;
+    left: 120px;
+}
+
+.mid .text2{
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    top: 185px;
+    left: 120px;
+}
+
+.mid .text3{
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    top: 260px;
+    left: 120px;
+}
+
+.mid .text4{
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    top: 335px;
+    left: 120px;
+}
+button {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 9px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    top: 400px;
+    position: absolute;
+    left: 155px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.down{
+    width: 100%;
+    position: relative;
+    height: 310px;
+    padding: 0px 10px 40px 0px;
+}
+
+.down .contact{
+    height: 100%;
+    width: 20%;
+    font-size: 21px;
+    position: absolute;
+    justify-content: left;
+    color: rgba(255, 255, 255, 0.482);
+    background-color: rgb(33, 33, 33);
+    padding: 30px 30px;
+    border-radius: 15px;
+    left: 50px;
+}
+
+
+.contact .con{
+    height: 100px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: left;
+}
+.con a{
+    color: rgba(255, 255, 255, 0.482); 
+    text-decoration:none;
+}
+
+.down .data{
+    height: 100%;
+    width: 73%;
+    font-size: 21px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.482);
+    background-color: rgb(33, 33, 33);
+    padding: 30px 30px;
+    border-radius: 15px;
+    right: 50px;
+}
+.down .sty{
+    font-size: 35px;
+    color: rgb(193, 191, 191);
+}
